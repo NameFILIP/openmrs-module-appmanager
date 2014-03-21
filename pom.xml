@@ -94,8 +94,13 @@
 				<type>pom</type>
 				<scope>test</scope>
 			</dependency>
-						
 			<!-- End OpenMRS core -->
+
+			<dependency>
+				<groupId>org.apache.ant</groupId>
+				<artifactId>ant-compress</artifactId>
+				<version>1.4</version>
+			</dependency>
 
 		</dependencies>
 	</dependencyManagement>
