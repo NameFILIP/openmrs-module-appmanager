@@ -32,6 +32,16 @@
 		<file>messages.properties</file>
 	</messages>
 	<!-- /Internationalization -->
+	
+	<globalProperty>
+        <property>appmanager.repositoryFolder</property>
+        <defaultValue>apps</defaultValue>
+        <description>
+            Name of the folder in which to store apps. 
+            If a relative path, it's determined relative to the application data directory set in the runtime properties. 
+            If an absolute path, it can be a directory anywhere on the system.
+        </description>
+    </globalProperty>
 
 </module>
 
